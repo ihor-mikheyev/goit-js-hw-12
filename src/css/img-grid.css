@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Montserrat;
+  font-weight: 400;
+}
+
+form {
+  text-align: center;
+  margin-top: 2.25rem;
+  margin-bottom: 2rem;
+}
+input {
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  min-width: 17rem;
+  height: 2.5rem;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+}
+
+input::placeholder {
+  color: #808080;
+}
+
+button {
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: #fff;
+  background-color: #4e75ff;
+}
+
+button:hover {
+  background-color: #6c8cff;
+  color: #fff;
+}
+
+#img-output {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.item {
+  max-width: 22.5rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #808080;
+}
+
+.item-info {
+  display: flex;
+  gap: 1.75rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.item-info__text {
+  text-align: center;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+}
+
+.item-info__text span {
+  font-weight: normal;
+}
