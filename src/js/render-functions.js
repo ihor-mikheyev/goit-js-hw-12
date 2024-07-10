@@ -23,7 +23,7 @@ function createMarkup({
 }
 
 function renderImage(array) {
-  const markup = array.map(createMarkup);
+  const markup = array.map(createMarkup).join('');
   refs.imgOut.insertAdjacentHTML('beforeend', markup);
 }
 
